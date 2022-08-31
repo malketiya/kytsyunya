@@ -8,3 +8,6 @@
   background-color: none;
   background-image: url("https://github.com/FuChinvin/kytsyunya/raw/main/images/k1.png"); }
 body {background-color:#84bbf9}
+.main-content {
+  @include large {
+    max-width: 80rem; }}

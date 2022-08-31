@@ -4,4 +4,6 @@
 @import "{{ site.theme }}";
 
 .page-header {
+  color: none;
+  background-color: none;
   background-image: url("images/k1.png");

@@ -1,5 +1,6 @@
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kytsyunya</title>
     <link rel="icon" type="image/x-icon" href="https://github.com/FuChinvin/kytsyunya/raw/main/favicon.png">
   </head>
@@ -13,9 +14,15 @@
       <li><a><img src="https://raw.githubusercontent.com/FuChinvin/kytsyunya/main/images/logo.png" /></a></li>
     </ul></div>
     <div class="container">
-      <h1>Malketiya CFDM3DP1C</h1></br>
+        <div class="row">
+          <div class="column left">
+          </div>
+          <div class="column right">
+            <h1>Malketiya CFDM3DP1C</h1></br>
+          </div>
+        </div> 
     </div>
-  </div>
+    </div>
   </body>
 </html>
 
@@ -32,6 +39,10 @@
   ul li:last-child {float:right}
   .container {background:#fefffe;border:1px #313442 solid;border-radius:5px}
   .container h1 {color:#069;font-size:24px;margin:12px 12px 0 12px;font-family:Arial}
+  .column {float:left;padding:10px}
+  .left {width:25%}
+  .right {width:75%}
+  .row:after {content:"";display:table;clear:both}
   @media screen and (min-width: 700px) {}
   @media screen and (min-width: 900px) {}
   @media screen and (min-width: 1300px) {}

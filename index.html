@@ -5,6 +5,7 @@
   </head>
   
   <body>
+    <div class="content">
     <div class="heater"><ul>
       <li><a href="/">Home</a></li>
       <li><a href="/">Software</a></li>
@@ -14,12 +15,21 @@
     <div class="container">
       <h1>Malketiya CFDM3DP1C</h1>
     </div>
+  </div>
   </body>
 </html>
 
 
 <style>
-  * {box-sizing: border-box}
+  .content {
+    display: flex;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+    box-sizing: border-box;
+}
   body {background-image:url('https://raw.githubusercontent.com/FuChinvin/kytsyunya/main/images/2.jpg');margin:0;padding:0;width:100%;max-width:100%}
   .heater,.container{display:table;width:100%}
   ul {list-style-type:none;margin:0 21px 0 0;padding:0}

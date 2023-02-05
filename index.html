@@ -29,10 +29,9 @@
               лінійні підшипники, литі шестерні забезпечують точний рух та необхідну жорстксть системи для проектів, 
               розмір яких не перевищує 22 x 22 x 22см. </h4>
             
-              <form action="/action_page.php"></form>
-              <div class="addb">
-                <button> - </button><input type="text" id="fcount" name="count" placeholder="1"><button> + </button>
-              </div>
+              <form action="">
+                <button id="bl"> - </button><input type="text" id="fcount" name="count" placeholder="1"><button id="br"> + </button>
+              </form>
             
           </div>
         </div>
@@ -103,9 +102,10 @@
   .left {width:50%;padding-right:6px}
   .right {width:50%;padding-left:6px}
   
-  addb {padding:auto;margin:auto;display:block;width:100%;text-align:center}
+  form {padding:auto;margin:auto;display:block;width:100%;text-align:center}
   input[type=text] {width:50px;padding:8px 0;display:inline-block;border:1px solid #ccc;box-sizing:border-box;text-align:center;color:black;margin:auto}
-  button {padding:8px 0;border:1px solid #ccc;background:white;border-radius:0 4px 4px 0}
+  button {padding:8px 0;border:none;background:none;font-size:18px;position:absolute}
+  #bl {left:100px} #br {right:100px}
   .foot {position:relative;height:200px;background:#010100;color:#161365;width:100%;bottom:0;margin-top:10px}
   
   

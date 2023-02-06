@@ -24,7 +24,9 @@
             <h1>Malketiya CFDM3DP1N</h1>
             
             <form action="">
-              <input type="text" id="fcount" name="count" placeholder=""><button id="buy">Buy</button>
+              <label for="fcount">Qty</label>
+              <input type="text" id="fcount" name="count" placeholder="1">
+              <button id="buy">Buy</button>
             </form>
             
             <h4>3Д принтер CFDM3DP1N (Cartesian FDM 3D Printer 1 Nozzle) побудований на основі декартової системи координат.
@@ -105,9 +107,11 @@
   .left {width:50%;padding-right:6px}
   .right {width:50%;padding-left:6px}
   
-  form {font-size:1em;padding:0.5em;border-radius:1em;font-family:sans-serif}
+  form {font-size:1em;padding:0.5em 0 0.5em 0.5em;border-radius:1em;font-family:sans-serif}
   label,input,button {font-size:inherit;padding: 0.2em;margin:0.1em 0.2em;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
   input::placeholder{color:#000102}
+  #fcount {width:40px}
+  #buy {width:60px}
  
  
   

@@ -22,6 +22,12 @@
           </div>
           <div class="column right">
             <h1>Malketiya CFDM3DP1N</h1>
+            
+            <form action="">
+              <button id="bl">-</button><input type="text" id="fcount" name="count" placeholder="1"><button id="br">+</button>
+              <button id="buy">Buy</button>
+            </form>
+            
             <h4>3Д принтер CFDM3DP1N (Cartesian FDM 3D Printer 1 Nozzle) побудований на основі декартової системи координат.
               Об'ємні моделі створюються шляхом пошарового наплавлення матеріалу (технологія FDM). використовує PLA та 
               ABS пластик, щоб створювати об'єкти з роздільною здатністю до 100 мікрон CFDM3DP1N заснований на RepRap, 
@@ -29,9 +35,7 @@
               лінійні підшипники, литі шестерні забезпечують точний рух та необхідну жорстксть системи для проектів, 
               розмір яких не перевищує 22 x 22 x 22см. </h4>
             
-              <form action="">
-                <button id="bl">-</button><input type="text" id="fcount" name="count" placeholder="1"><button id="br">+</button>
-              </form>
+              
             
           </div>
         </div>
@@ -105,8 +109,10 @@
   form {padding:auto;margin:auto;display:block;width:90px;text-align:center;position:relative}
   input[type=text] {width:70px;padding:8px 0;display:inline-block;border:1px solid #ccc;height:30px;border-radius:14px;box-sizing:border-box;text-align:center;margin:auto;font-size:16px}
   input::placeholder{color:#000102}
-  button {padding:6px 0 8px 0;border:none;background:none;font-size:16px;position:absolute;color:#000102;height:30px}
+  #bl, #br {padding:6px 0 8px 0;border:none;background:none;font-size:16px;position:absolute;color:#000102;height:30px}
   #bl {left:20px} #br {right:20px}
+  #buy {padding:8px 0;background:#0170e3;font-size:16px;color:white;height:30px;border-radius:14px;text-align:center}
+  #buy:hover {opacity:0.9}
   .foot {position:relative;height:200px;background:#010100;color:#161365;width:100%;bottom:0;margin-top:10px}
   
   

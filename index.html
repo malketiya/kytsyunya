@@ -12,7 +12,7 @@
           <li><a href="">Software</a></li>
           <li><a href="">Доставка і оплата</a></li>
           <li><a href="">Контакти</a></li>
-          <li><a href=""><img src="https://raw.githubusercontent.com/malketiya/kytsyunya/main/images/logo.png" /></a></li>
+          <li><a href=""><img src="https://raw.githubusercontent.com/malketiya/kytsyunya/main/images/logo.png"/></a></li>
         </ul>
       </div>
       <div class="container">
@@ -45,7 +45,8 @@
               <label for="fcount">Qty</label>
               <input type="text" id="fcount" name="count" placeholder="1">
               <button id="buy">Buy</button>
-              <button id="addtobucket">&nbsp;</button>
+              <button id="addtobucket">&nbsp;<img class="bucket1" src="https://raw.githubusercontent.com/malketiya/kytsyunya/main/images/bucket.png"/></button>
+              
             </form>
             
             <h4>3Д принтер CFDM1N (Cartesian FDM 3D Printer 1 Nozzle) побудований на основі декартової системи координат.
@@ -164,7 +165,8 @@ function showDivs(n) {
   input::placeholder{color:#000102}
   #fcount {width:40px}
   #buy {width:60px}
-  #addtobucket {width:30px;background-color:none;background:none;background-image:'https://raw.githubusercontent.com/malketiya/kytsyunya/main/images/logo.png'}
+  #addtobucket {width:30px;position:relative}
+  .bucket1 {position:absolute;height:30px;top:0;left:0}
   
   .sliderpreview {width:100%;height:120px;text-align:center}
   .demo {display:inline-block;height:100%;width:auto;padding:auto;margin:auto;cursor:pointer}

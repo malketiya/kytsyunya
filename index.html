@@ -7,17 +7,9 @@
   </head>
   <body>
     <div class="content">
-      
-      <div class="heater">
-        <ul>
-          
-          <li><a href=""><img src="https://raw.githubusercontent.com/malketiya/kytsyunya/main/images/logo.png"/></a></li>
-          <li><a href="#">Придбати</a></li>
-        </ul>
-      </div>
-      
       <div class="container1">
         <img src="https://raw.githubusercontent.com/malketiya/kytsyunya/main/images/1.jpg"/>
+        <div class="top-right"><li><a href="#">Придбати</a></li></div>
 
         
         </div>
@@ -96,10 +88,10 @@
   * {box-sizing:border-box}
   body {background-image:none;background-color:black;margin:0;padding:0;}
   .content {height:100%;width:100%;box-sizing:border-box}
-  .heater {display:block;width:100%}
-  .container1 {display:block;width:100%;padding:0 0 0 0}
+  .heater {display:block;width:100%;background-color:none}
+  .container1 {display:block;width:100%;padding:0 0 0 0;position:relative}
   .container1 img {width:100%}
-  .heater {background-color:none}
+  .top-right {position:absolute;top:8px;right:16px;}
   ul {list-style-type:none;margin:0 0 0 0;padding:0}
   li {display:inline;float:left}
   li a {display:block;color:#06090d;text-align:center;padding:14px 16px;text-decoration:none;background-color:none;font-size:16px;font-family:Arial}

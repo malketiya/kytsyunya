@@ -22,17 +22,13 @@
         <div class="column c2">
           <h2>Ванільний 3Д Принтер на основі декартової системи координат</h2>
           
-          <ul style="list-style-type:none">
-            <li><p>1</p> Bill Russell</li>
-            <li><p>22</p> Sam Jones</li>
-            <li>Tom Heinsohn</li>
-            <li>K. C. Jones</li>
-            <li>Satch Sanders</li>
-            <li>John Havlicek</li>
-            <li>Jim Loscutoff</li>
-            <li>Frank Ramsey</li>
-            <li>Robert Horry</li>
-          </ul>
+          <ol>
+            <li>Каретка осі Х для переміщення екструдера</li>
+            <li>Крокові мотори для переміщення вузлів принтера</li>
+            <li>Сопло 0,4мм за замовчуванням</li>
+            <li>Верстатний профіль алюмінієва сталь</li>
+            <li>Шпилька TR8</li>
+          </ol>
           
           <table class="custom1">
             <thead>
@@ -107,7 +103,10 @@
   table.custom1 td:nth-child(1) {text-align:center}
   table.custom1 td:nth-child(3) {text-align:center}
   
-  li p {border:1px solid black;border-radius:50%;display:inline-block;padding:5px;margin:0}
+  ol {display:block;padding:0 0 0 26px;list-style:none;background:#ccc;overflow:hidden;counter-reset:numList}
+  ol li {width:176px;margin-right:44px;float:left;position:relative}
+  ol li:before {counter-increment:numList;content:counter(numList);float:left;position:absolute;left:-26px;font:bold 12px sans-serif;text-align:center;
+    color:#fff;line-height:18px;width:18px;height:18px;background:#f0f;-moz-border-radius:999px;border-radius:999px}
   
   @media screen and (max-width: 992px) {.c1, .c2 {width:100%;padding:10px}}
   

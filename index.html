@@ -103,9 +103,9 @@
   table.custom1 td:nth-child(1) {text-align:center}
   table.custom1 td:nth-child(3) {text-align:center}
   
-  ol {display:block;padding:0 0 0 26px;list-style:none;background:#ccc;overflow:hidden;counter-reset:numList}
-  ol li {width:176px;margin-right:44px;float:left;position:relative}
-  ol li:before {counter-increment:numList;content:counter(numList);float:left;position:absolute;left:-26px;font:bold 12px sans-serif;text-align:center;
+  ol {display:block;padding:0 0 0 26px;list-style:none;background:none;overflow:hidden;counter-reset:numList}
+  ol li {width:100%;margin-right:0;float:left;position:relative}
+  ol li:before {counter-increment:numList;content:counter(numList);float:left;position:absolute;left:-26px;font:bold 13px 'Arial';text-align:center;
     color:#fff;line-height:18px;width:18px;height:18px;background:#f0f;-moz-border-radius:999px;border-radius:999px}
   
   @media screen and (max-width: 992px) {.c1, .c2 {width:100%;padding:10px}}
